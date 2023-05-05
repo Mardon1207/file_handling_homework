@@ -6,5 +6,12 @@ def main(data:str):
     Returns:
         int: return answer
     """
-
-# Read data from file
+    f=open('txt_file\data10.txt', mode='r')
+    txt=f.read()
+    m=0
+    s=txt.split('\n')
+    for i in s:
+        if len(i)>m:
+            m=len(i)
+    return m
+print(main('txt_file/data10.txt'))

@@ -6,7 +6,7 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    f=open('txt_file/data01.txt',mode='r')
+    f=open('txt_file/data03.txt',mode='r')
     txt=f.read()
     lst=[]
     for i in txt:
@@ -14,4 +14,4 @@ def main(data:str):
             lst.append(int(i))
     return lst
 # Read data from file
-print(main('txt_file/data01.txt'))
+print(main('txt_file/data03.txt'))

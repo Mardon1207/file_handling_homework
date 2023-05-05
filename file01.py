@@ -6,7 +6,7 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    data=open(data,mode='r+').read()
+    data=open(data,mode='r+')
     read=data.read()
     s=read.split(',')
     l=[]
